@@ -1,6 +1,6 @@
 # Job Statistics Visualization
 
-This project visualizes the distribution of **167 job descriptions** collected from the internet. The descriptions cover various tech domains and frameworks, providing insights into the most common skills and technologies required across the industry.
+This project visualizes the distribution of **167 Data Science job descriptions** collected from the internet. The descriptions cover various tech domains and frameworks, providing insights into the most common skills and technologies required across the industry.
 
 ### **Interactive Visualization**
 
