@@ -7,6 +7,8 @@ This project visualizes the distribution of **167 job descriptions** collected f
 You can explore the interactive treemap visualization hosted on **Hugging Face** here:  
 [**Job Statistics Visualization**](https://huggingface.co/spaces/SparkleDark/Job_Statistics)
 
+![Orchestration Tools Example Vizualization](http://url/to/img.png)
+
 ### **Categories Analyzed**
 
 The data is divided into the following key categories:
