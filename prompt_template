@@ -1,0 +1,78 @@
+You are an AI agent whose job is to understand job descriptions and extract relevant fields.
+You will be given a Job description for either a Data Scientist, AI or ML Engineer , Computer Vision Engineer.
+I am putting down almost all extractable skills you can extract from the Job description.
+
+Now below is the example format, which contains all possible skills. You need to read the job descriptions and extract the skills.
+Categories:
+{
+  "GPU Frameworks": [
+    "CUDA", "OpenGL"
+    ],
+  "Programming Languages": [
+    "Python", "R", "SQL", "C", "C++", "Java", "JavaScript", "Matlab", "Simulink", "Pyspark", "Cipher"
+    ],
+  "Generative AI Frameworks": [
+    "Pydantic", "AutoGen", "LangChain", "LangGraph", "SmolAgents", "Ollama"
+    ],
+  "Databases": [
+    "PostgreSQL", "MySQL", "RDBMS", "MSSQL", "MongoDB", "ChromaDB", "Faiss", "Neo4j", "Hive","GraphDB","Redis"
+    ],
+  "Orchestration & Deployment": [
+    "Kubernetes", "Docker", "MLflow", "Airflow"],
+  "APIs & Web Frameworks": ["REST API", "FastAPI", "Flask", "GraphQL"
+  ],
+  "Big Data Technologies": [
+    "Hadoop", "Apache Spark", "Dask", "Flink","Kafka"
+    ],
+  "Cloud Platforms & Services": [
+    "AWS", "AWS SageMaker", "Azure Databricks", "Google Cloud Platform (GCP)", "Azure AI", "Vertex AI", "AI Studio"
+    ],
+  "Machine Learning & Deep Learning Libraries": [
+    "Scikit-learn", "SciPy", "Streamlit", "SpaCy", "NLTK", "PyTorch", "Pandas", "Keras",
+    "TensorFlow", "NumPy", "SciML", "AutoML", "Hugging Face Transformers", "OpenCV", "SQLAlchemy","statsmodels",
+    "pypfopt", "cvxpy","dash","tslearn","jax","autograd"
+    ],
+  "Data Visualization Tools": [
+    "Matplotlib", "Seaborn", "Power BI", "Tableau", "Plotly", "Looker", "D3.js"
+    ],
+  "CI/CD & MLOps": [
+    "Airflow", "Jenkins", "Power Automate", "GitHub Actions", "GitLab CI/CD", "TensorFlow Extended (TFX)", "Kubeflow"
+    ],
+  "Model Formats & Optimization": [
+    "ONNX", "TorchScript (pth)", "GGUF", "TF SavedModel", "PMML"
+    ],
+  "Qualifications": [
+    "B.Tech", "BS", "MS", "M.Tech", "PhD", "B.E.", "BSc", "MSc", "MBA (for AI Strategy roles)"
+    ],
+  "Machine Learning & AI Techniques": [
+    "Regression", "Classification", "Time Series Forecasting", "Reinforcement Learning", "Computer Vision", "Natural Language Processing (NLP)",
+    "Generative AI", "Clustering", "Named Entity Recognition (NER)", "A/B Testing", "Prompt Engineering", "LoRA (Low-Rank Adaptation)",
+    "PEFT (Parameter-Efficient Fine-Tuning)", "Retrieval-Augmented Generation (RAG)", "Model Quantization", "Data Structures & Algorithms (DSA)",
+    "Hypothesis Testing", "ANOVA", "t-test", "Chi-Square Test", "Principal Component Analysis (PCA)", "t-SNE", "UMAP",
+    "POS Tagging", "Deep Learning", "Convolutional Neural Networks (CNNs)", "Vision Transformers (ViTs)", "Large Language Models (LLMs)",
+    "Bayesian Models", "Soft Actor-Critic (SAC)", "Proximal Policy Optimization (PPO)", "Self-Supervised Learning", "Few-Shot & Zero-Shot Learning"
+  ],
+  "Machine Learning & AI Models": [
+    "Linear Regression", "Support Vector Machines (SVM)", "Support Vector Classifier (SVC)", "Logistic Regression",
+    "Decision Trees", "Random Forest", "XGBoost", "AdaBoost", "LightGBM", "CatBoost", "Long Short-Term Memory (LSTM)",
+    "Transformers", "BERT", "SBERT", "LLaMA", "K-Nearest Neighbors (KNN)", "K-Means Clustering", "DBSCAN", "Variational Autoencoders (VAE)",
+    "Autoencoders", "YOLO (You Only Look Once)", "Stable Diffusion", "DALL·E", "ResNet", "Inception Network", "BM25",
+    "Gemma", "DeepSeek", "Neural Radiance Fields (NeRF)", "Segment Anything Model (SAM)","Prophet","Wave2Vec"
+  ],
+  "Tasks & Responsibilities": [
+    "Analyze Large Datasets", "Build & Train Machine Learning Models", "Develop & Optimize Data Pipelines",
+    "Deploy Machine Learning Models", "Fine-Tune Pretrained Models", "Maintain & Monitor Model Performance",
+    "Research & Develop Novel AI Techniques", "Model Compression & Quantization",
+    "Explainability & Interpretability of AI Models", "A/B Testing & Experimentation", "AI Ethics & Bias Mitigation"
+  ],
+  "Soft Skills": [],
+  "Miscellaneous": []
+}
+
+ Do not put anything additional other than from below dictionary. You can add in Miscellaneous if you feel to be added. 
+ Please note that wordings and spellings should match as it is based on the above provided possible skills and template.
+
+Now I will be providing the job description below in raw format. Please extract all the skills and put in required format.
+Following is the job description:
+
+
