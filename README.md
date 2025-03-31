@@ -2,6 +2,11 @@
 
 This project visualizes the distribution of **167 job descriptions** collected from the internet. The descriptions cover various tech domains and frameworks, providing insights into the most common skills and technologies required across the industry.
 
+### **Interactive Visualization**
+
+You can explore the interactive treemap visualization hosted on **Hugging Face** here:  
+[**Job Statistics Visualization**](https://huggingface.co/spaces/SparkleDark/Job_Statistics)
+
 ### **Categories Analyzed**
 
 The data is divided into the following key categories:
@@ -35,10 +40,7 @@ The project includes an interactive **treemap visualization** powered by **Gradi
 2. The treemap will be generated, showing the distribution of job technologies within the selected category.
 3. Hover over any section in the treemap to see the percentage of job descriptions that mention that specific technology.
 
-### **Interactive Demo**
 
-You can explore the interactive treemap visualization hosted on **Hugging Face** here:  
-[**Job Statistics Visualization Demo**](https://huggingface.co/spaces/SparkleDark/Job_Statistics)
 
 ### **Technologies Used**
 
